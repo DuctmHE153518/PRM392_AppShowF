@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_margin="10dp"
+android:layout_marginEnd="10dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/backgroup_item">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="137dp"
+            android:layout_height="127dp"
+            android:layout_below="@+id/proname"
+            android:layout_marginTop="-40dp"
+            android:src="@drawable/backgroup_item" />
+
+        <TextView
+            android:id="@+id/proname"
+            android:layout_width="156dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            android:text="Product"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/des"
+            android:layout_width="162dp"
+            android:layout_height="51dp"
+            android:layout_below="@+id/proname"
+            android:layout_alignParentEnd="true"
+            android:textSize="20dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginEnd="21dp"
+            android:text="Description" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

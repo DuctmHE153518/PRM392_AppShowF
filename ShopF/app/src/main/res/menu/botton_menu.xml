@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mnHome"
+        android:icon="@drawable/ic_home"
+        android:title="Trang chủ"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mnfood"
+        android:icon="@drawable/ic_food"
+        android:title="Sản Phẩm"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mnNull"
+        android:title=""
+        android:enabled="false"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/mnAccount"
+        android:icon="@drawable/ic_account"
+        android:title="Tài khoản"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mnSetting"
+        android:icon="@drawable/ic_setting"
+        android:title="Cài đặt"
+        app:showAsAction="ifRoom" />
+</menu>
